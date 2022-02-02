@@ -1,2 +1,2 @@
-# patterns-examples
+# pattern-examples
 Generic pattern programs in Java
