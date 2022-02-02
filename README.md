@@ -3,7 +3,7 @@ Generic pattern programs in Java
 
 
 <pre>  
-1) Pattern 1 
+Pattern 1 
     *  *  *  *  *  *  *  
     *  *  *  *  *  *  *  
     *  *  *  *  *  *  *  
@@ -11,4 +11,14 @@ Generic pattern programs in Java
     *  *  *  *  *  *  *  
     *  *  *  *  *  *  *  
     *  *  *  *  *  *  *  
+</pre>
+
+<pre>
+Pattern 2
+	*  
+	*  *  
+	*  *  *  
+	*  *  *  *  
+	*  *  *  *  *  
+	*  *  *  *  *  *  
 </pre>
