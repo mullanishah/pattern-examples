@@ -7,12 +7,10 @@ public class PatternTester {
 	public static void main(String[] args) {
 		
 		PatternOne.patternFirst(7);
-		line();
 		PatternOne.patternSecond(7);
-		line();
 		PatternOne.patternThird(7);
-		line();
 		PatternOne.patternFourth(7);
+		PatternOne.patternFifth(7);
 	}
 	
 	public static void line() {
