@@ -11,7 +11,8 @@ public class PatternTester {
 		PatternOne.patternSecond(7);
 		line();
 		PatternOne.patternThird(7);
-
+		line();
+		PatternOne.patternFourth(7);
 	}
 	
 	public static void line() {
