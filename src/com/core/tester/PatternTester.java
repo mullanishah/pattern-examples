@@ -9,6 +9,8 @@ public class PatternTester {
 		PatternOne.patternFirst(7);
 		line();
 		PatternOne.patternSecond(7);
+		line();
+		PatternOne.patternThird(7);
 
 	}
 	

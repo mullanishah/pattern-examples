@@ -4,11 +4,11 @@ public class PatternOne {
 	
 	public static void patternFirst(int rowCount) {
 		
-		for(int i = 0; i < rowCount; i++) {
+		for(int row= 0; row< rowCount; row++) {
 			
-			for(int j = 0; j < rowCount; j++) {
+			for(int col = 0; col < rowCount; col++) {
 				
-				System.out.print("*  ");
+				System.out.print("* ");
 			}
 			System.out.println();
 		}
@@ -16,14 +16,27 @@ public class PatternOne {
 	
 	public static void patternSecond(int rowCount) {
 		
-		for(int i = 0; i < rowCount; i++) {
+		for(int row= 0; row< rowCount; row++) {
 			
-			for(int j = 0; j < i; j++) {
+			for(int col = 0; col < row; col++) {
 				
-				System.out.print("*  ");
+				System.out.print("* ");
 			}
 			System.out.println();
 		}
+	}
+	
+	static public void patternThird(int n) {
+		
+		for(int row = 0; row < n; row++) { 
+			
+			for(int col = 0; col < n-row; col++) {
+				
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		
 	}
 
 }
