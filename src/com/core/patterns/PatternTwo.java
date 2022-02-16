@@ -17,4 +17,21 @@ public class PatternTwo {
 			System.out.println();
 		}
 	}
+	
+	public static void patternSeventh(int noOfElements) {
+		
+		for(int row = 0; row < noOfElements; row++) {
+			
+			int noOfSpaces = (row + noOfElements) - noOfElements;
+			
+			for(int space = 0; space < noOfSpaces; space++) {
+				System.out.print("  ");
+			}
+			
+			for(int col = 0; col < (noOfElements - row); col++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
 }
