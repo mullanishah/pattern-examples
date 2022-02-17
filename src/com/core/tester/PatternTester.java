@@ -6,16 +6,17 @@ import com.core.patterns.PatternTwo;
 public class PatternTester {
 
 	public static void main(String[] args) {
-		//executePatternOne();
+		executePatternOne();
 		executePatternTwo();
 	}
 	
 	private static void executePatternTwo() {
-		//PatternOne.patternFirst(7);
-		//PatternTwo.patternSixth(7);
-		//PatternTwo.patternSeventh(7);
-		//PatternTwo.patternEighth(7);
+		PatternOne.patternFirst(7);
+		PatternTwo.patternSixth(7);
+		PatternTwo.patternSeventh(7);
+		PatternTwo.patternEighth(7);
 		PatternTwo.patternNinth(7);
+		PatternTwo.patternTenth(7);
 	}
 	
 	private static void executePatternOne() {

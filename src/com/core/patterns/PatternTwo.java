@@ -69,4 +69,22 @@ public class PatternTwo {
 			System.out.println();
 		}
 	}
+	
+	public static void patternTenth(int noOfRows) {
+		
+		for(int row = 0; row < noOfRows; row++) {
+			
+			int noOfSpaces = noOfRows - row;
+			for(int space = 0; space < noOfSpaces; space++) {
+				System.out.print("  ");
+			}
+			
+			int noOfCol = row + 1;
+			for(int col = 0; col < noOfCol; col++) {
+				String extraSpace = "  ";
+				System.out.print("* " + extraSpace);
+			}
+			System.out.println();
+		}
+	}
 }
