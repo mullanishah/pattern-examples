@@ -93,14 +93,14 @@ Generic pattern programs in Java
           * * * 
             * 
 
-
-
-10.      *
-        * *
-       * * *
-      * * * *
-     * * * * *
-
+10.Pattern 10: Pyraid Star Pattern 
+              *   
+            *   *   
+          *   *   *   
+        *   *   *   *   
+      *   *   *   *   *   
+    *   *   *   *   *   *   
+  *   *   *   *   *   *   *   
 
 11.  * * * * *
       * * * *
