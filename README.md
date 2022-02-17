@@ -14,7 +14,7 @@ Generic pattern programs in Java
     * * * * * * * 
     * * * * * * * 
 
-2.Pattern 2
+2.Pattern 2: Right Triangle Star Pattern
     * 
     * * 
     * * * 
@@ -22,7 +22,7 @@ Generic pattern programs in Java
     * * * * * 
     * * * * * * 
 
-3.Pattern 3
+3.Pattern 3: Inverse Right Triangle Star Pattern
     * * * * * * * 
     * * * * * * 
     * * * * * 
@@ -31,7 +31,7 @@ Generic pattern programs in Java
     * * 
     * 
 
-4.Pattern 4 
+4.Pattern 4
     1 
     1 2 
     1 2 3 
@@ -40,7 +40,7 @@ Generic pattern programs in Java
     1 2 3 4 5 6 
     1 2 3 4 5 6 7 
 
-5.Patten 5
+5.Patten 5: Right Pascal's Triangle
     * 
     * * 
     * * * 
@@ -55,7 +55,7 @@ Generic pattern programs in Java
     * * 
     * 
 
-6.Pattern 6
+6.Pattern 6: Left Triangle Star Pattern
             * 
           * * 
         * * * 
@@ -65,7 +65,7 @@ Generic pattern programs in Java
 * * * * * * * 
 
 
-7.Pattern 7
+7.Pattern 7: Inverse Left Triangle Star Pattern
 * * * * * * * 
   * * * * * * 
     * * * * * 
@@ -74,14 +74,17 @@ Generic pattern programs in Java
           * * 
             * 
 
-8.      *
-       ***
-      *****
-     *******
+8.Pattern 8: Pyramid Star Pattern
+              * 
+            * * * 
+          * * * * * 
+        * * * * * * * 
+      * * * * * * * * * 
+    * * * * * * * * * * * 
+  * * * * * * * * * * * * * 
+
+9.Pattern 9: Reverse Pyramid Star Pattern
     *********
-
-
-9.  *********
      *******
       *****
        ***
