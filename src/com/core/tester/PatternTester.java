@@ -13,7 +13,8 @@ public class PatternTester {
 	private static void executePatternTwo() {
 		//PatternOne.patternFirst(7);
 		//PatternTwo.patternSixth(7);
-		PatternTwo.patternSeventh(7);
+		//PatternTwo.patternSeventh(7);
+		PatternTwo.patternEighth(7);
 	}
 	
 	private static void executePatternOne() {
