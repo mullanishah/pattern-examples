@@ -1,13 +1,19 @@
 package com.core.tester;
 
 import com.core.patterns.PatternOne;
+import com.core.patterns.PatternThree;
 import com.core.patterns.PatternTwo;
 
 public class PatternTester {
 
 	public static void main(String[] args) {
-		executePatternOne();
-		executePatternTwo();
+		//executePatternOne();
+		//executePatternTwo();
+		executePatternThree();
+	}
+	
+	private static void executePatternThree() {
+		PatternThree.PatternEleventh(7);
 	}
 	
 	private static void executePatternTwo() {
