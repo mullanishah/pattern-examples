@@ -34,13 +34,12 @@ public class PatternTwo {
 			System.out.println();
 		}
 	}
-	//incomplete
+	
 	public static void patternEighth(int noOfRows) {
 		
 		for(int row = 0; row < noOfRows; row++) {
 			
 			int noOfSpaces = (row + noOfRows) - noOfRows;
-			
 			for(int space = 0; space < noOfSpaces; space++) {
 				System.out.print("  ");
 			}
