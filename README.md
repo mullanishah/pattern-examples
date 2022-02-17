@@ -84,11 +84,15 @@ Generic pattern programs in Java
   * * * * * * * * * * * * * 
 
 9.Pattern 9: Reverse Pyramid Star Pattern
-    *********
-     *******
-      *****
-       ***
-        *
+
+* * * * * * * * * * * * * 
+  * * * * * * * * * * * 
+    * * * * * * * * * 
+      * * * * * * * 
+        * * * * * 
+          * * * 
+            * 
+
 
 
 10.      *
