@@ -28,6 +28,7 @@ public class PatternTwo {
 				System.out.print("  ");
 			}
 			
+			//int noOfCols = noOfElements - noOfSpaces;
 			for(int col = 0; col < (noOfElements - row); col++) {
 				System.out.print("* ");
 			}
@@ -35,16 +36,16 @@ public class PatternTwo {
 		}
 	}
 	
-	public static void patternEighth(int noOfRows) {
+	public static void patternEighth(int noOfRows) { //2n-1
 		
 		for(int row = 0; row < noOfRows; row++) {
 			
-			int noOfSpaces = (row + noOfRows) - noOfRows;
+			int noOfSpaces = noOfRows - row;
 			for(int space = 0; space < noOfSpaces; space++) {
 				System.out.print("  ");
 			}
 			
-			int noOfCols = noOfRows - noOfSpaces;
+			int noOfCols = (2 * row) + 1;
 			for(int col = 0; col < noOfCols; col++) {
 				System.out.print("* ");
 			}
