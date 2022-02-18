@@ -102,14 +102,17 @@ Generic pattern programs in Java
     *   *   *   *   *   *   
   *   *   *   *   *   *   *   
 
-11.  * * * * *
-      * * * *
-       * * *
-        * *
-         *
+11.Pattern 11: Reverse Pyramid Star Pattern
+*   *   *   *   *   *   *   
+  *   *   *   *   *   *   
+    *   *   *   *   *   
+      *   *   *   *   
+        *   *   *   
+          *   *   
+            *   
 
-
-12.  * * * * *
+12.Pattern 12: 
+     * * * * *
       * * * *
        * * *
         * *
