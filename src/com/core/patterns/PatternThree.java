@@ -12,13 +12,13 @@ public class PatternThree {
 			
 			int noOfSpace = (noOfRows + row) - noOfRows;
 			for(int space = 0; space < noOfSpace; space++) {
-				System.out.print(" ");
+				System.out.print("  ");
 			}
 			
 			int noOfCol = noOfRows - row;
 			for(int col = 0; col < noOfCol; col++) {
-				String extraSpace = " ";
-				System.out.print("*" + extraSpace);
+				String extraSpace = "  ";
+				System.out.print("* " + extraSpace);
 			}
 			System.out.println();
 		}
