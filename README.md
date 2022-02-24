@@ -111,17 +111,18 @@ Generic pattern programs in Java
           *   *   
             *   
 
-12.Pattern 12: 
-     * * * * *
-      * * * *
-       * * *
-        * *
-         *
-         *
-        * *
-       * * *
-      * * * *
-     * * * * *
+12.Pattern 12: Sandglass Star Pattern
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+
 
 
 13.      *
