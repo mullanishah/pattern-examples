@@ -33,8 +33,13 @@ public class PatternThree {
 		for(int currentRow = 0; currentRow < (maxElementsInRow * 2); currentRow++) {
 			
 			int colsInRow = (currentRow < maxElementsInRow) ? (maxElementsInRow - currentRow) : (currentRow - maxElementsInRow + 1);
+			
+			for(int space = 0; space < maxElementsInRow - colsInRow; space++) {
+				System.out.print(" ");
+			}
+			
 			for (int currentCol = 0; currentCol < colsInRow; currentCol++) {
-				System.out.print("*");
+				System.out.print("* ");
 			}
 			System.out.println();
 		}
