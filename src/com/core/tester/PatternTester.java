@@ -13,7 +13,8 @@ public class PatternTester {
 	}
 	
 	private static void executePatternThree() {
-		PatternThree.PatternEleventh(7);
+		//PatternThree.PatternEleventh(7);
+		PatternThree.PatternTwelth(5);
 	}
 	
 	private static void executePatternTwo() {
