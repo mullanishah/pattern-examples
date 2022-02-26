@@ -125,11 +125,13 @@ Generic pattern programs in Java
 
 
 
-13.      *
-        * *
-       *   *
-      *     *
-     *********
+13.Pattern 13: Triangle Star Pattern
+     * 
+    * * 
+   *   * 
+  *     * 
+ *       * 
+***********
 
 
 14.  *********
