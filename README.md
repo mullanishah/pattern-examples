@@ -5,7 +5,7 @@ Generic pattern programs in Java
 
 ```text
 
-1.Pattern 1
+1.Pattern 1: Square Star Pattern
     * * * * * * * 
     * * * * * * * 
     * * * * * * * 
