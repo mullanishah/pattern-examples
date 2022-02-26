@@ -134,12 +134,12 @@ Generic pattern programs in Java
 ***********
 
 
-14.  *********
-      *     *
-       *   *
-        * *
-         *
-
+14.Pattern 14: Reverse Triangle Star Pattern
+*********
+ *     * 
+  *   * 
+   * * 
+    * 
 
 15.      *
         * *
