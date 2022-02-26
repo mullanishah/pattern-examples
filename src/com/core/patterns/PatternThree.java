@@ -69,5 +69,32 @@ public class PatternThree {
 			System.out.print("*");
 		}
 	}
-
+	
+	/* Reverse Triangle Star Pattern
+	 */
+	public static void patternFourteen(int noOfRows) {
+		
+		int colsInFirstRow = 2 * noOfRows - 1;
+		for(int firstRow = 0; firstRow < colsInFirstRow; firstRow++) {
+			System.out.print("*");
+		}
+		System.out.println();
+		
+		for(int currentRow = 1; currentRow < noOfRows; currentRow++) {
+			int noOfSpacesInRow = (noOfRows + currentRow) - noOfRows;
+			for (int space = 0; space < noOfSpacesInRow; space++) {
+				System.out.print(" ");
+			}
+			
+			int colsInRow = noOfRows - currentRow;
+			for (int col = 0; col < colsInRow; col++) {
+				if(col == 0 || col == colsInRow - 1) {
+					System.out.print("* ");
+				}else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+	}
 }
