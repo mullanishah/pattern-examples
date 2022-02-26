@@ -31,7 +31,7 @@ Generic pattern programs in Java
     * * 
     * 
 
-4.Pattern 4
+4.Pattern 4: Right Triangle Number Pattern
     1 
     1 2 
     1 2 3 
