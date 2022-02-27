@@ -141,16 +141,17 @@ Generic pattern programs in Java
    * * 
     * 
 
-15.      *
-        * *
-       *   *
-      *     *
-     *       *
-      *     *
-       *   *
-        * *
-         *
-
+15. Pattern 15: Diamond Star Pattern
+     
+    * 
+   * * 
+  *   * 
+ *     * 
+*       * 
+ *     * 
+  *   * 
+   * * 
+    *
 
 16.           1
             1   1
