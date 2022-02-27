@@ -5,7 +5,7 @@ Generic pattern programs in Java
 
 ```text
 
-1.Pattern 1
+1.Pattern 1: Square Star Pattern
     * * * * * * * 
     * * * * * * * 
     * * * * * * * 
@@ -31,7 +31,7 @@ Generic pattern programs in Java
     * * 
     * 
 
-4.Pattern 4
+4.Pattern 4: Right Triangle Number Pattern
     1 
     1 2 
     1 2 3 
@@ -134,12 +134,12 @@ Generic pattern programs in Java
 ***********
 
 
-14.  *********
-      *     *
-       *   *
-        * *
-         *
-
+14.Pattern 14: Reverse Triangle Star Pattern
+*********
+ *     * 
+  *   * 
+   * * 
+    * 
 
 15.      *
         * *
