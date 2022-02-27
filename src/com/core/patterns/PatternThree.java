@@ -97,4 +97,24 @@ public class PatternThree {
 			System.out.println();
 		}
 	}
+	
+	/* Diamond star pattern
+	 */
+	public static void patternFifteen(int maxElementsInRow) {
+		
+		int totalRows = maxElementsInRow * 2;
+		for(int currentRow = 0; currentRow < totalRows; currentRow++) {
+			
+			int totalSpaces = (currentRow < maxElementsInRow) ? (maxElementsInRow - currentRow) : (currentRow - maxElementsInRow);
+			for(int spaces = 0; spaces < totalSpaces; spaces++) {
+				System.out.print(" ");
+			}
+			
+			int totalColsInRow = (currentRow > maxElementsInRow) ? (2 * maxElementsInRow - currentRow) : currentRow;
+			for (int cols = 0; cols < totalColsInRow; cols++) {
+				System.out.print((cols == 0 || cols == totalColsInRow - 1) ? "* " : "  ");
+			}
+			System.out.println();
+		}
+	}
 }
