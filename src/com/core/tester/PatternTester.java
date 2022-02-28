@@ -1,5 +1,6 @@
 package com.core.tester;
 
+import com.core.patterns.PatternFour;
 import com.core.patterns.PatternOne;
 import com.core.patterns.PatternThree;
 import com.core.patterns.PatternTwo;
@@ -9,14 +10,19 @@ public class PatternTester {
 	public static void main(String[] args) {
 		//executePatternOne();
 		//executePatternTwo();
-		executePatternThree();
+		//executePatternThree();
+		executePatternFour();
+	}
+	
+	private static void executePatternFour() {
+		PatternFour.patternSixteen(5);
 	}
 	
 	private static void executePatternThree() {
-		//PatternThree.patternEleventh(7);
-		//PatternThree.patternTwelth(5);
-		//PatternThree.patternThirteenth(5);
-		//PatternThree.patternFourteen(5);
+		PatternThree.patternEleventh(7);
+		PatternThree.patternTwelth(5);
+		PatternThree.patternThirteenth(5);
+		PatternThree.patternFourteen(5);
 		PatternThree.patternFifteen(5);
 	}
 	
