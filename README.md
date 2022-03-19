@@ -153,7 +153,7 @@ Generic pattern programs in Java
    * * 
     *
 
-16. Pattern 16:  
+16. Pattern 16: Number Triangle Pattern
       1 
      1 1 
     1 2 1 
@@ -161,13 +161,14 @@ Generic pattern programs in Java
   1 4 6 4 1 
 
 
-17.      1
-        212
-       32123
-      4321234
-       32123
-        212
-         1
+17. Pattern 17: Number Diamond Pattern
+      1 
+    2 1 2 
+  3 2 1 2 3 
+4 3 2 1 2 3 4 
+  3 2 1 2 3 
+    2 1 2 
+      1 
 
 
 18.   **********
