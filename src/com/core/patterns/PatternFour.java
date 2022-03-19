@@ -23,4 +23,25 @@ public class PatternFour {
 			System.out.println();
 		}
 	}
+	
+	public static void patternSeventeen(int maxValue) {
+		
+		for(int currentRow = 0; currentRow <= 2 * maxValue; currentRow++) {
+			
+			int elementsInRow = (currentRow > maxValue) ? (2 * maxValue) - currentRow : currentRow;
+			
+			for(int spaces = 0; spaces < maxValue - elementsInRow; spaces++) {
+				System.out.print("  ");
+			}
+			
+			for(int column = elementsInRow; column >= 1; column--) {
+				System.out.print(column + " ");
+			}
+			
+			for (int rColumn = 2; rColumn <= elementsInRow; rColumn++) {
+				System.out.print(rColumn + " ");
+			}
+			System.out.println();
+		}
+	}
 }
