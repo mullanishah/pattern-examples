@@ -44,4 +44,28 @@ public class PatternFour {
 			System.out.println();
 		}
 	}
+	
+	/*
+	 * Here, imagine a section as a separate 90 degree triangle, so there are 4 sections in total.
+	 */
+	public static void patternEighteen(Integer elementsInASection) {
+		
+		for(int currentRow = 0; currentRow < 2 * elementsInASection; currentRow++) {
+			
+			int elementsInRow = (currentRow >= elementsInASection) ? ((currentRow - elementsInASection) + 1) : (elementsInASection - currentRow);
+			for(int column = 0; column < elementsInRow; column++) {
+				System.out.print("* ");
+			}
+			
+			int spacesInRow = (currentRow >= elementsInASection) ? ((elementsInASection - elementsInRow) * 2) : (currentRow * 2);
+			for(int spaces = 0; spaces < spacesInRow; spaces++) {
+				System.out.print("  ");
+			}
+			
+			for(int column = 0; column < elementsInRow; column++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
 }
