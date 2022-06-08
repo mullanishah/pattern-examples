@@ -195,11 +195,15 @@ Generic pattern programs in Java
        *        *
 
 
-20.    ****
-       *  *
-       *  *
-       *  *
-       ****
+20. Pattern 20: Rectangle   
+   ********
+   *      *
+   *      *
+   *      *
+   *      *
+   *      *
+   *      *
+   ********
 
 21.    1
        2  3
