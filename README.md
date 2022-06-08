@@ -171,17 +171,17 @@ Generic pattern programs in Java
       1 
 
 
-18. pattern 18: Hollow Diamond Star Pattern  
-* * * * * * * * * * 
-* * * *     * * * * 
-* * *         * * * 
-* *             * * 
-*                 * 
-*                 * 
-* *             * * 
-* * *         * * * 
-* * * *     * * * * 
-* * * * * * * * * * 
+18. Pattern 18: Hollow Diamond Star Pattern  
+   * * * * * * * * * * 
+   * * * *     * * * * 
+   * * *         * * * 
+   * *             * * 
+   *                 * 
+   *                 * 
+   * *             * * 
+   * * *         * * * 
+   * * * *     * * * * 
+   * * * * * * * * * * 
 
 
 19.    *        *
@@ -195,7 +195,7 @@ Generic pattern programs in Java
        *        *
 
 
-20. Pattern 20: Rectangle   
+20. Pattern 20: Rectangle Pattern  
    ********
    *      *
    *      *
