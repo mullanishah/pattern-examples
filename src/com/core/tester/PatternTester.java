@@ -15,9 +15,11 @@ public class PatternTester {
 	}
 	
 	private static void executePatternFour() {
-		//PatternFour.patternSixteen(5);
-		//PatternFour.patternSeventeen(4);
-		PatternFour.patternEighteen(5);
+//		PatternFour.patternSixteen(5);
+//		PatternFour.patternSeventeen(4);
+//		PatternFour.patternEighteen(5);
+		//TODO: 19
+		PatternFour.patternTwenty(10);
 	}
 	
 	private static void executePatternThree() {
