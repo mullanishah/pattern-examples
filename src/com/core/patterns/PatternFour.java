@@ -94,4 +94,15 @@ public class PatternFour {
 		}	
 	}
 
+	/**
+	 * Here, imagine a section as a separate 90 degree triangle, so there are 4 sections in total.
+	 * @param 
+	 * @return void
+	 * @param i
+	 */
+	public static void patternNineteen(Integer rowsInSection) {
+		
+		
+	}
+
 }
