@@ -80,7 +80,7 @@ public class PatternFour {
 		
 		for(int row = 0; row < maxElements; row++) {
 			
-			int elementsInCurrentRow = (row > n) ? ((2 * n - row)*2) : row * 2;
+			int elementsInCurrentRow = (row > n) ? (2 * n - row) * 2 : row * 2;
 			
 			int mid = elementsInCurrentRow / 2;
 			for(int col = 0; col < mid; col++) {
@@ -98,7 +98,7 @@ public class PatternFour {
 				
 				System.out.print("*");
 			}
-			System.out.println(" ");
+			System.out.println();
 		}
 	}
 

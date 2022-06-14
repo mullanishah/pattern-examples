@@ -18,7 +18,7 @@ public class PatternTester {
 //		PatternFour.patternSixteen(5);
 //		PatternFour.patternSeventeen(4);
 //		PatternFour.patternEighteen(5);
-		PatternFour.patternNineteen(5);
+		PatternFour.patternNineteen(6);
 //		PatternFour.patternTwenty(7);
 	}
 	
