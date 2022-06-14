@@ -68,10 +68,43 @@ public class PatternFour {
 			System.out.println();
 		}
 	}
+	
+	/**
+	 * Here, imagine a section as a separate 90 degree triangle, so there are 4 sections in total.
+	 * @param rowsInSection
+	 * @return void
+	 */
+	public static void patternNineteen(Integer n) {
+		
+		int maxElements = n * 2;
+		
+		for(int row = 0; row < maxElements; row++) {
+			
+			int elementsInCurrentRow = (row > n) ? ((2 * n - row)*2) : row * 2;
+			
+			int mid = elementsInCurrentRow / 2;
+			for(int col = 0; col < mid; col++) {
+				
+				System.out.print("*");
+			}
+			
+			int spacesInRow = maxElements - elementsInCurrentRow;
+			for(int space = 0; space < spacesInRow; space++) {
+				
+				System.out.print(" ");
+			}
+			
+			for(int col = mid; col < elementsInCurrentRow; col++) {
+				
+				System.out.print("*");
+			}
+			System.out.println(" ");
+		}
+	}
 
 	/**
 	 * @param maxElements
-	 * @return void
+	 * @return voidd
 	 */
 	public static void patternTwenty(Integer maxElements) {
 
@@ -93,16 +126,4 @@ public class PatternFour {
 			System.out.println();
 		}	
 	}
-
-	/**
-	 * Here, imagine a section as a separate 90 degree triangle, so there are 4 sections in total.
-	 * @param 
-	 * @return void
-	 * @param i
-	 */
-	public static void patternNineteen(Integer rowsInSection) {
-		
-		
-	}
-
 }
