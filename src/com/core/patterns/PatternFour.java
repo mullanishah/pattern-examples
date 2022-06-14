@@ -98,6 +98,7 @@ public class PatternFour {
 				
 				System.out.print("*");
 			}
+			
 			System.out.println();
 		}
 	}
