@@ -184,15 +184,19 @@ Generic pattern programs in Java
    * * * * * * * * * * 
 
 
-19.    *        *
-       **      **
-       ***    ***
-       ****  ****
-       **********
-       ****  ****
-       ***    ***
-       **      **
-       *        *
+19. Pattern 19: Inverse Hollow Star Pattern
+   *          *
+   **        **
+   ***      ***
+   ****    ****
+   *****  *****
+   ************
+   *****  *****
+   ****    ****
+   ***      ***
+   **        **
+   *          *
+
 
 
 20. Pattern 20: Rectangle Pattern  
