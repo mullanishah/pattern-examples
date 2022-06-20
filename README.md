@@ -1,4 +1,4 @@
-# pattern-examples
+## pattern-examples 
 Generic pattern programs in Java
 
 <pre> </pre>
