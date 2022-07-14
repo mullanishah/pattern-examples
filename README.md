@@ -1,4 +1,4 @@
-## pattern-examples 
+## pattern-examples. 
 Generic pattern programs in Java
 
 <pre> </pre>
@@ -161,7 +161,7 @@ Generic pattern programs in Java
   1 4 6 4 1 
 
 
-17. Pattern 17: Number Diamond Pattern
+17. Pattern 17:  Number Diamond Pattern
       1 
     2 1 2 
   3 2 1 2 3 
