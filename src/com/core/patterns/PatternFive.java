@@ -21,13 +21,14 @@ public class PatternFive {
 	
 	public static void patternTwentyTwo(Integer n) {
 		
-		int counter = 0;
-		for(int row = 0; row < n; row++) {
-			
-			for(int column = 0; column <= row; column++) {
+		for(int row = 1; row <= n; row++) {
+			for(int column = 1; column <= row; column++) {
 				
-				int value = (++counter % 2);
-				System.out.print(value + " ");
+				if(((row + column) % 2) == 0) {
+					System.out.print("1 ");
+				} else {
+					System.out.print("0 ");
+				}
 			}
 			System.out.println();
 		}
