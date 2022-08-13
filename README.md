@@ -209,19 +209,22 @@ Generic pattern programs in Java
    *      *
    ********
 
-21.    1
+21. Pattern 21: Numbers
+       1
        2  3
        4  5  6
        7  8  9  10
        11 12 13 14 15
 
-22.    1
-       0 1
-       1 0 1
-       0 1 0 1
-       1 0 1 0 1
+22. Pattern 22: 1 01 101 Pattern 
+       1 
+       0 1 
+       1 0 1   
+       0 1 0 1 
+       1 0 1 0 1 
 
-23.        *      *
+23. Pattern 23:
+           *      *
          *   *  *   *
        *      *      *
 
