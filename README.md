@@ -245,12 +245,14 @@ Generic pattern programs in Java
        *   *
       *****
 
-26.   1 1 1 1 1 1
-      2 2 2 2 2
-      3 3 3 3
-      4 4 4
-      5 5
-      6
+26.Pattern 26: Inverse Right-angle Triangle Number Pattern
+	1 1 1 1 1 1 
+	2 2 2 2 2 
+	3 3 3 3 
+	4 4 4 
+	5 5 
+	6 
+
 
 27.   1 2 3 4  17 18 19 20
         5 6 7  14 15 16
