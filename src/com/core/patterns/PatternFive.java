@@ -33,4 +33,21 @@ public class PatternFive {
 			System.out.println();
 		}
 	}
+
+	/**
+	 * @param 
+	 * @return void
+	 * @param i
+	 */
+	public static void patternTwentySix(int totalRows) {
+		
+		for(int row = 1; row <= totalRows; row++) {
+			
+			int totalValInColumn = (totalRows + 1) - row;
+			for(int col = 1; col <= totalValInColumn; col++) {
+				System.out.print(row + " ");
+			}
+			System.out.println();
+		}
+	}
 }
