@@ -25,6 +25,7 @@ public class PatternFive {
 			for(int column = 1; column <= row; column++) {
 				
 				if(((row + column) % 2) == 0) {
+					
 					System.out.print("1 ");
 				} else {
 					System.out.print("0 ");
@@ -45,6 +46,7 @@ public class PatternFive {
 			
 			int totalValInColumn = (totalRows + 1) - row;
 			for(int col = 1; col <= totalValInColumn; col++) {
+				
 				System.out.print(row + " ");
 			}
 			System.out.println();
